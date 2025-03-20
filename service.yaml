@@ -5,7 +5,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    app: my-deployment
+    app: MyApp
   ports:
     - port: 80
       targetPort: 80
